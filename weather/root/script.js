@@ -22,7 +22,7 @@ function getweather(){
     return;
  }
 
- const WeatherUrl =  `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+ const WeatherUrl =  `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
  fetch(WeatherUrl)
     .then(Response=>
