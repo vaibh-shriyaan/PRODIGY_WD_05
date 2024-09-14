@@ -1,10 +1,7 @@
-html,body{
+body{
     margin:0;
     padding:0;
-    box-sizing:border-box;
     height:100vh;
-}
-body{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +10,9 @@ body{
 }
 
 h1{
+    font-family: lora;
+    font-weight: 700;
+    font-style: bold;
     color: #fff;
     font-size: 40px;
     margin: 8px 4px;
@@ -33,7 +33,7 @@ img{
 
 
 .sub{
-    max-width:400px;
+    width:400px;
     padding: 25px;
     border-radius: 10px;
     display:flex;
@@ -79,22 +79,40 @@ button:hover{
 @media(max-width:375px)
 {
     .sub {
-        width: 100%;
+        width: 200px;
         padding: 4px;
         border-radius: 10px;
     }
 
     input {
-        font-size: 14px;
-        padding: 6px;
+        width:80%;
+        font-size: 9px;
+        padding: 4px;
+        margin :2px 4px;
     }
 
     button {
-        width: 80px;
-        font-size: 14px;
+        width: 40%;
+        font-size: 10px;
+        padding:6px;
+        margin :8px 4px;
+
     }
 
-    h1, label, p {
-        font-size: 14px;
-    } 
+    h1{
+        font-family: lora;
+        font-weight: 700;
+        font-style: bold;
+        color: #fff;
+        font-size: 25px;
+        margin: 10px 4px;
+    }
+    p{
+        color: #fff;
+        font-size:14px;
+        margin: 8px 4px;
+        font-family: oxygen;
+        font-weight: 400;
+        font-synthesis-style: light;
+    }
 }
